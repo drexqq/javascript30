@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #545454;
+}
+.keys {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.key {
+    cursor: pointer;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 4px solid transparent;
+
+    transition: all 0.07s ease;
+}
+.play {
+    border: 4px solid rgb(36, 49, 163);
+    transform: scale(1.1);
+}
+.key div {
+    pointer-events: none;
+}
+.key small {
+    pointer-events: none;
+    margin-top: 10px;
+    font-size: 12px;
+}
